@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+
+body {
+    background-image: url("../Photo/bg.jpg");
+    background-size: auto;
+    margin: 0;
+}
+
+main {
+    width: 90%;
+    min-width: 1010px;
+    margin: auto;
+    border: 1px solid skyblue;
+}
+
+
+/*-----------------------Header-----------------*/
+
+header {
+    background-color: #56466b;
+    height: 200px;
+    padding: 10px 100px 10px 20px;
+    box-sizing: border-box;
+}
+
+header div {
+    float: right;
+    padding-top: 10px;
+}
+
+header img {
+    margin: 30px 20px;
+    float: left;
+}
+
+
+/*-----------------------Menu--------------------*/
+menu{
+    margin:0;
+    padding: 0;   
+}
+menu ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+menu li {
+    float: left;
+    width: calc(100% / 3);
+    box-sizing: content-box;
+    font-size: 20px;
+    font-family: 'Handlee', cursive;
+}
+
+menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*menu li:nth-child(1) a {
+    border-bottom: 3px solid #009f3b;
+}*/
+
+menu li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #009f3b;
+}
+
+.active:hover {
+    background-color: green;
+}
+
+.dropmenu {
+    display: none;
+}
+
+menu li:hover .dropmenu {
+    display: block;
+    background-color: #333;
+    position: absolute;
+}
+
+
+/*---------------Footer---------------*/
+
+footer {
+    height: 50px;
+    color: white;
+    background-color: #333;
+    padding: 5px 10px 5px 10px;
+}
+
+footer h3 {
+    float: left;
+}
+
+footer h4 {
+    float: right;
+}
+
+
+/*----------------Container---------------*/
+
+.container {
+    padding: 20px;
+    background-image: url("../Photo/contbg.jpg");
+    font-size: 25px;
+    text-align: center;
+}
+
+
+/*----------------*/
+header .knopka{
+    margin-top: 5px;
+    font-size: 30px;
+    float:right;
+    color: #fff; 
+    text-decoration: none; 
+    background: rgb(212,75,56); 
+    padding: 10px;
+}
+.knopka:hover { background: rgb(232,95,76); } 
+.knopka:active { background: rgb(152,15,0); } 
+/*-----Book-----------*//*----------------*//*----------------*/
+#price{
+    background-color: lightgreen;
+    width: 20%;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 20%;
+}
+img[alt="Foto"]:hover{
+    transform: scale(1.2);
+}
+
+/*----------------*//*----------------*//*----------------*/
+
+
+
+
+.container article {
+    background-color: white;
+    width:200px;
+    height: 500px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    /*min-height: 300px;*/
+    border:1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+.container article:hover {
+    border-color:aqua; 
+    transform: scale(1.15);
+}
+.container article h5 {
+    background-color: lightgreen; 
+    border-radius: 10%;
+}
+/*.container article h4 {
+    ;
+}*/
+.imgarea{
+    height: 300px;
+}
+.imgarea img{
+    width: 100%;
+    height: 100%;
+}
+.namearea{
+    height: 150px;
+    overflow: hidden;
+}
+.namearea h4{
+    font-size: 100%;
+}
+.container a:visited ,a{
+    color:black;
+}
+/*------------Contact------------*/
+
+.contactleft,
+.contactright {
+    width: 49%;
+    display: inline-block;
+}
+
+.contactright iframe {
+    width: 100%;
+}
+
+.contactleft ul {
+    list-style-type: none;
+}
+
+.contactleft img {
+    width: 100px;
+    height: 35px;
+}
+
+.contactleft {
+    float: left;
+}
+
+/**-----------------*/
+header a  img:hover{
+    transform: scale(0.8) rotate(360deg) ;
+    transition-duration: 1s;
+  
+}
+/**-----------------*//**-----------------*//**-----------------*/
+.Form input[type="text"],input[type="password"]{
+     display: inline-block;
+  padding: 10px 20px;
+  border: 5px solid #80adbc;
+  border-radius: 4px;
+  float: right;
+}
+.Form input[type="submit"]{
+      display: inline-block;
+      cursor: pointer;
+  padding: 10px 20px;
+  border: 2px solid #018dc4;
+   border-radius: 3px;
+    letter-spacing: 5px;
+  background: #09cfe5;
+  float: right;
+}
+
+
+
+
+
